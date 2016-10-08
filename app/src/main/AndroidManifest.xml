@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wallee3535.drivesample">
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.apps.drive.APP_KEY"
+            android:value= "AIzaSyDqcPrKgAv0ULsHflHhjikV7Q0Kif8jo9A"/>
+        <meta-data
+            android:name="com.google.android.gms:play-services-auth:9.6.1"
+            android:value= "AIzaSyDqcPrKgAv0ULsHflHhjikV7Q0Kif8jo9A"/>
+    </application>
+
+</manifest>
