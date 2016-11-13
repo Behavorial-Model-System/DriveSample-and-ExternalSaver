@@ -11,6 +11,7 @@ import java.io.IOException;
 /**
  * Created by Walter on 10/3/2016.
  * "Externally" saves some text in /storage/emulated/0/aaTutorial/savedFile.txt
+ * The saved file will be on the phone and accessible to other apps
  */
 
 public class ExternalSaver {

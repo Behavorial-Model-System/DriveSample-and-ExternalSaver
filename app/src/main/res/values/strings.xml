@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DriveSample</string>
+    <string name="title_activity_resolver">ResolverActivity</string>
 </resources>
