@@ -11,8 +11,11 @@ Unintuitive Things You Need To Get Drive Api Running:
             android:name="com.google.android.gms:play-services-auth:9.6.1"
             android:value= "AIzaSyDqcPrKgAv0ULsHflHhjikV7Q0Kif8jo9A"/>
 
--I had to make both an API key and OAuth 2.0 client ID in console.developers.google.com Credentials,
- which registers the package name
+-You have to do this on every new computer:
+    -get your SHA1 fingerprint key
+    -make both an API key and OAuth 2.0 client ID in console.developers.google.com -> Credentials
+    -register the package name, ie com.wallee3535.drivesample
+-Still need to look into whether these steps above are necessary in the final release
 
 
  ExternalSaver is not used in the activity and can be copy and pasted to other projects.
